@@ -1,0 +1,240 @@
+       header{
+           background-color:transparent;
+           position: relative;
+           display: flex;
+           height: 100px;
+           width: 100%;
+           border:1px transparent solid;
+           border-radius: 50vh;
+       }
+       #logo>img{
+           width: 200px;
+           height: 200px;
+       }
+
+       #logo{
+           width: 90%;
+       }
+
+      #info{
+           display: flex;
+           width: 50%;
+           justify-content: right;
+           align-items: center;
+           padding-right: 20px;
+       }
+        
+        div#containerall {
+            
+           padding-right: 10%;
+           padding-left: 10%;
+           margin-top: 150px;
+           display: flex;
+           justify-content: center;
+           border-radius: 60px;
+           border: 2px solid transparent;
+        }
+
+        .contenedor{
+            height: 120px;
+            width: 300px;
+        }
+        
+        
+        div#uno {
+            background-color: rgb(208, 101, 3);
+        }
+        
+        div#dos {
+            background-color: rgb(233, 147, 26);
+        }
+        
+        div#tres {
+            background-color: rgb(22, 145, 190);
+        }
+        
+        div#cuatro {
+            background-color: rgb(22, 107, 162);
+        }
+        
+        div#cinco {
+            background-color: rgb(224, 31, 17);;
+        }
+        
+        div#seis {
+            background-color: rgb(124, 5, 228);
+        }
+
+        img.icon{
+            justify-content: center;
+            padding-left: 75px;
+            width: 100px;
+            height: 100px;
+            align-items: center;
+        }
+        
+        input.register{
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: transparent;
+            padding: 20px;
+            width: 120px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+
+        input.register:hover{
+            background-color:rgba(18, 158, 224, 0.668) ;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input.iniciarsesion{
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: transparent;
+            padding: 20px;
+            width: 120px;
+            margin-left: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+        }
+
+        input.iniciarsesion:hover{
+            background-color:rgba(215, 215, 11, 0.668) ;
+            cursor: pointer;
+            font-weight: bold;
+        
+        }
+
+        h1{
+            display: flex;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+        h1:hover{
+            cursor:default;
+        }
+
+                #containerall{
+                animation-duration: 1s;
+                animation-name: slidein;
+              }
+              
+              @keyframes slidein {
+                from {
+                  margin-left: 120%;
+                  width: 100%;
+                }
+              
+                to {
+                  margin-left: 0%;
+                  width: auto;
+                }
+              }
+
+              #uno:hover{
+               transform: scale(1.2);
+               border-radius: 30px;
+              }
+
+              #dos:hover{
+                transform: scale(1.2);
+                border-radius: 30px;
+               }
+
+               #tres:hover{
+                transform: scale(1.2);
+                border-radius: 30px;
+               }
+
+               #cuatro:hover{
+                transform: scale(1.2);
+                border-radius: 30px;
+               }
+
+               #cinco:hover{
+                transform: scale(1.2);
+                border-radius: 30px;
+               }
+
+               #seis:hover{
+                transform: scale(1.2);
+                border-radius: 30px;
+               }
+
+.title1{
+    padding-top: 30px;
+    font-family:fantasy;
+    font-weight: bold;
+    width: 200px;
+    height: 20px;
+    display: flex;
+    margin-left: 45%;
+}
+
+.title1{
+    animation-duration: 1s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 120%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 460%;
+      width: auto;
+    }
+  }
+  
+
+  .nosotros{
+      padding-top: 150px;
+      justify-content: left;
+      margin-left: 20px;
+      font-family: fantasy;
+      font-weight: bolder;
+      transform-style: flat;
+  }
+
+  .nosotros{
+    animation-duration: 1s;
+    animation-name:slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 120%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: auto;
+    }
+  }
+
+  #informacion{
+
+    border: 2px solid black;
+    height: 500px;
+    width: 45%;
+    background-image:url(./FORMULARIOS/fondos/fondotres.jpg);
+}
+
+#psicologia{
+    justify-content: right;
+    align-items: right;
+    display: flex;
+}
+
+ 
+
+
+
+
+
+  
