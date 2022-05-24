@@ -1,3 +1,7 @@
+       body{
+         background-image: url(./files/wallpapers/fondotres.jpg);
+       }
+       
        header{
            background-color:transparent;
            position: relative;
@@ -9,7 +13,7 @@
        }
        #logo>img{
            width: 200px;
-           height: 200px;
+           height: 180px;
        }
 
        #logo{
@@ -28,15 +32,15 @@
             
            padding-right: 10%;
            padding-left: 10%;
-           margin-top: 150px;
+           margin-top: 200px;
            display: flex;
            justify-content: center;
-           border-radius: 60px;
+           border-radius: 100%;
            border: 2px solid transparent;
         }
 
         .contenedor{
-            height: 120px;
+            height: 200px;
             width: 300px;
         }
         
@@ -58,7 +62,7 @@
         }
         
         div#cinco {
-            background-color: rgb(224, 31, 17);;
+            background-color: rgb(224, 31, 17);
         }
         
         div#seis {
@@ -67,6 +71,7 @@
 
         img.icon{
             justify-content: center;
+            padding-top: 20px;
             padding-left: 75px;
             width: 100px;
             height: 100px;
@@ -99,7 +104,7 @@
         }
 
         input.iniciarsesion:hover{
-            background-color:rgba(215, 215, 11, 0.668) ;
+            background-color:rgb(124, 5, 228) ;
             cursor: pointer;
             font-weight: bold;
         
@@ -230,6 +235,80 @@
     align-items: right;
     display: flex;
 }
+
+#containertargets{
+  display: flex;
+  height: 36rem;
+width: 100%;
+}
+
+#tarjeta{
+  border:2px solid transparent ;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  background-color: white;
+}
+#tarjeta img{
+  width: 100%;
+  height: 100%;
+}
+
+#tarjeta{
+  animation-duration: 1s;
+  animation-name:slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 120%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: auto;
+  }
+}
+
+.containeracerca{
+  animation-duration: 1s;
+  animation-name:slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 120%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: auto;
+  }
+}
+
+#tarjeta:hover{
+  transform: scale(0.97);
+}
+
+.containeracerca{
+  border: 1px solid transparent;
+  border-radius: 20px;
+  backdrop-filter: blur(0px);
+  background-image:url(./files/imagenes/6045.png);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 100px;
+
+}
+h1#acercade{
+  display: flex;
+  justify-content: center;
+  font-weight:bold;
+  color: yellow;
+}
+
 
  
 
