@@ -1,5 +1,5 @@
        body{
-         background-image: url(./files/wallpapers/fondotres.jpg);
+background-image: url(./files/wallpapers/fondotres.jpg);
        }
        
        header{
@@ -12,12 +12,12 @@
            border-radius: 50vh;
        }
        #logo>img{
-           width: 200px;
-           height: 180px;
+           width: 150px;
+           height: 120px;
        }
 
        #logo{
-           width: 90%;
+           width: 50%;
        }
 
       #info{
@@ -46,27 +46,33 @@
         
         
         div#uno {
-            background-color: rgb(208, 101, 3);
+          background:linear-gradient(top, black 10%, orangered 75%, rgb(148, 148, 26));
+          padding-right: 20px;
         }
         
         div#dos {
-            background-color: rgb(233, 147, 26);
+          background:linear-gradient(top, black 10%, orangered 75%, yellow);
+          padding-right: 20px;
         }
         
         div#tres {
-            background-color: rgb(22, 145, 190);
+          background:linear-gradient(top, black 10%, orangered 75%, yellow);
+          padding-right: 20px;
         }
         
         div#cuatro {
-            background-color: rgb(22, 107, 162);
+          background:linear-gradient(top, black 10%, orangered 75%, yellow);
+          padding-right: 20px;
         }
         
         div#cinco {
-            background-color: rgb(224, 31, 17);
+          background:linear-gradient(top, black 5%, orangered 50%, yellow);
+          padding-right: 20px;
         }
         
         div#seis {
-            background-color: rgb(124, 5, 228);
+          background:linear-gradient(top, black 10%, orangered 75%, yellow);
+          padding-right: 20px;
         }
 
         img.icon{
@@ -80,32 +86,37 @@
         
         input.register{
             border: 1px solid black;
+            color: black;
             border-radius: 10px;
             background-color: transparent;
             padding: 20px;
             width: 120px;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            font-weight: bold;
         }
 
         input.register:hover{
-            background-color:rgba(18, 158, 224, 0.668) ;
+            background-color:black;
+            color: white;
             cursor: pointer;
             font-weight: bold;
         }
 
         input.iniciarsesion{
             border: 1px solid black;
+            color: black;
             border-radius: 10px;
             background-color: transparent;
             padding: 20px;
             width: 120px;
             margin-left: 20px;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            font-weight: bold;
         }
 
         input.iniciarsesion:hover{
-            background-color:rgb(124, 5, 228) ;
-            cursor: pointer;
+          background-color:black;
+          color: white;
             font-weight: bold;
         
         }
@@ -140,42 +151,42 @@
 
               #uno:hover{
                transform: scale(1.2);
-               border-radius: 30px;
+              
               }
 
               #dos:hover{
                 transform: scale(1.2);
-                border-radius: 30px;
+               
                }
 
                #tres:hover{
                 transform: scale(1.2);
-                border-radius: 30px;
+                
                }
 
                #cuatro:hover{
                 transform: scale(1.2);
-                border-radius: 30px;
+               
                }
 
                #cinco:hover{
                 transform: scale(1.2);
-                border-radius: 30px;
+                
                }
 
                #seis:hover{
                 transform: scale(1.2);
-                border-radius: 30px;
+                
                }
 
 .title1{
-    padding-top: 30px;
     font-family:fantasy;
     font-weight: bold;
     width: 200px;
     height: 20px;
     display: flex;
-    margin-left: 45%;
+    justify-content: center;
+    text-align: center;
 }
 
 .title1{
@@ -243,15 +254,17 @@ width: 100%;
 }
 
 #tarjeta{
-  border:2px solid transparent ;
+  border:2px solid black ;
   border-radius: 10px;
   margin: 10px;
   align-items: center;
-  background-color: white;
+  
+  color:white;
 }
 #tarjeta img{
   width: 100%;
   height: 100%;
+  
 }
 
 #tarjeta{
@@ -293,24 +306,109 @@ width: 100%;
 }
 
 .containeracerca{
-  border: 1px solid transparent;
-  border-radius: 20px;
+  border-top: 3px solid black;
   backdrop-filter: blur(0px);
-  background-image:url(./files/imagenes/6045.png);
   margin-top: 50px;
   margin-bottom: 50px;
   height: 100px;
+  width: 100%;
 
 }
 h1#acercade{
   display: flex;
   justify-content: center;
   font-weight:bold;
-  color: yellow;
+  color: black
+}
+
+#tarjeta h1{
+  color: black;
+}
+
+#tarjeta p{
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  text-align: center;
+  margin: 20px;
 }
 
 
+.iconos-footer{
+  padding-top: 200px;
+  width: 70x;
+  height: 70px;
+  margin-left: 400px;
+  display: flex;
+  
+}
+
+#icono-whatsapp img{
+  padding-left: 10px;
+  width: 70px;
+  height: 70px;
+}
+
+.iconos-footer:hover{
+  transform: scale(0.9);
+}
+
+}
+  footer{
+    animation-duration: 1s;
+    animation-name:slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 120%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: auto;
+    }
+  }
+
+  #containerh1{
+    border: 2px solid black;
+    width: 100%;
+  }
+
+  footer h1{
+    text-align: center;
+  }
+
+  #poli{
+    margin-right: 1400px;
+    width: 25%;
+  }
+
+  footer{
+    background-color:transparent;
+    position: relative;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border:1px transparent solid;
+    border-radius: 50vh;
+    align-items: center;
+    padding-left: 400px;
+  }
+
+
+
+  
+
+
+
+
+
  
+
+
+
 
 
 
