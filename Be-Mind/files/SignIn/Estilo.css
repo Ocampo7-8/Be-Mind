@@ -1,0 +1,84 @@
+body {
+  font-family: Arial;
+  background-image: url(./bg.png);
+}
+
+.form-login {
+width: 400px;
+height: 520px;
+background-color: rgb(2, 2, 2);
+margin: auto;
+margin-top: 180px;
+box-shadow: 7px 13px 37px black;
+padding: 20px 30px;
+border-top: 4px solid rgb(8, 86, 241);
+color: white;
+}
+
+.form-login h1 {
+margin: 0;
+text-align: center;
+height: 40px;
+margin-bottom: 20px;
+border-bottom: 2px solid;
+font-size: 25px;
+}
+
+.form-login h2 {
+margin: 0;
+text-align: center;
+height: 40px;
+margin-bottom: 50px;
+border-bottom: 2px solid;
+font-size: 25px;
+}
+
+.controls {
+ width: 380px;
+ border: 1px solid #017bab;
+ margin-bottom: 15px;
+ padding: 11px 10px;
+ background: white;
+ height: 20px;
+ font-size: 14px;
+ font-weight: bold;
+ border-radius: 10px;
+}
+
+.buttons {
+  width: 70%;
+  align-items: center;
+  height: 40px;
+  background-color: white;
+  border: none;
+  color: black;
+  margin-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-left: 65px;
+  border-radius: 10px;
+}
+
+.buttons:hover{
+  background-color: #0a37ca;
+  cursor: pointer;
+  transform: scale(0.99);
+}
+
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.form-login p {
+  height: 40px;
+  text-align: center;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+}
+
+.form-login a:hover {
+  text-decoration: underline;
+}
