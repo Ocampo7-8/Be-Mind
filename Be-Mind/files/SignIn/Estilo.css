@@ -1,15 +1,14 @@
 body {
   font-family: Arial;
-  background-image: url(./bg.png);
 }
 
 .form-login {
 width: 400px;
 height: 520px;
-background-color: rgb(2, 2, 2);
+background-color: rgb(223, 82, 12);
 margin: auto;
 margin-top: 180px;
-box-shadow: 7px 13px 37px black;
+box-shadow: 7px 13px 37px rgb(46, 45, 2);
 padding: 20px 30px;
 border-top: 4px solid rgb(8, 86, 241);
 color: white;
