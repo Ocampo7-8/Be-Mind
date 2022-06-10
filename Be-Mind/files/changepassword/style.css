@@ -32,10 +32,6 @@ display: flex;
   display: grid;
 }
 
-body{
-
-}
-
 input{
   background-color: transparent;
   padding: 8px;
@@ -66,4 +62,13 @@ input#enviar:hover{
   cursor: pointer;
   color: white;
 }
+
+img .backend{
+width:2px ;
+  flex-direction: column;
+  margin-left: 280px;
+}
+
+
+
 

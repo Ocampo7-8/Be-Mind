@@ -197,3 +197,11 @@ button:nth-child(1):hover span {
 
     border: 2px solid rgb(224, 117, 11);
 }
+
+@media screen and (max-width:780px) {
+    form.formulario{
+        padding-bottom: 100%;
+        margin: 0;
+        border-radius: 0px;
+    }
+}

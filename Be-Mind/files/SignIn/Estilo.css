@@ -7,11 +7,13 @@ width: 400px;
 height: 520px;
 background-color: rgb(223, 82, 12);
 margin: auto;
-margin-top: 180px;
+margin-top: 60px;
 box-shadow: 7px 13px 37px rgb(46, 45, 2);
 padding: 20px 30px;
 border-top: 4px solid rgb(8, 86, 241);
 color: white;
+display: flex;
+flex-direction: column;
 }
 
 .form-login h1 {
@@ -42,6 +44,13 @@ font-size: 25px;
  font-size: 14px;
  font-weight: bold;
  border-radius: 10px;
+}
+
+@media screen and (max-width:780px){
+  .controls{
+    width: 320px;
+    margin-left: 22px;
+  }
 }
 
 .buttons {
@@ -80,4 +89,28 @@ font-size: 25px;
 
 .form-login a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width:780px){
+  div#screen{
+    padding-right: 17%;
+    margin: -10%;
+    padding: 0;
+  }
+
+  .buttons{
+    margin-right: 20px;
+
+  }
+}
+  .backend{
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+
+@media screen and (max-width:780px){
+  .backend{
+    display: block;
+  }
 }
