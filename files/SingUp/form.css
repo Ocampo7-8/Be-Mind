@@ -200,6 +200,8 @@ button:nth-child(1):hover span {
 
 @media screen and (max-width:780px) {
     form.formulario{
+        height: 100%;
+        width: 100%;
         padding-bottom: 100%;
         margin: 0;
         border-radius: 0px;
